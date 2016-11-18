@@ -1,7 +1,13 @@
 // Score board
 String team1name;
 String team2name;
-String team3name;
+String team3name;// Team variables.
+
+int team1Wins = 3;
+int team2Wins = 5;
+int team3Wins = 4;  //Team wins.
+
+
 
 
 void setup() {
@@ -15,9 +21,9 @@ team1name = "Skrubs"; //First team name.
 team2name = "Skids"; //Second team name.
 team3name = "CoolKats"; //Third team name.
 
-int team1Wins;
-int team2Wins;
-int team3Wins;
+
+
+
 
 
 
