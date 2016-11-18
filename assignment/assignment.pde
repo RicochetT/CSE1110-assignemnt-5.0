@@ -9,11 +9,11 @@ int team3Pts;//Team points.
 
 int team1Wins;
 int team2Wins;
-int team3Wins;  //Team wins.
+int team3Wins;//Team wins.
 
 int team1Lose;
 int team2Lose;
-int team3Lose;  //Team losses.
+int team3Lose;//Team losses.
 
 void setup() {
   size(800, 600); // Size of canvas
@@ -45,9 +45,10 @@ int T2total = team1Pts * 7;
 int T3total = team1Pts * 7;
 
 
-text(T1total,50,50);
-
-
+rect(200,150,125,50);
+rect(325,150,125,50);
+rect(450,150,125,50);
+rect(575,150,125,50);// First row of labels
 
 
 }
