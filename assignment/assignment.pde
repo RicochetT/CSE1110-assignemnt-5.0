@@ -13,9 +13,11 @@ void draw() {
 background(100, 10, 100);
 team1name = "Skrubs"; //First team name.
 team2name = "Skids"; //Second team name.
-team3name = "CoolKidz"; //Third team name.
+team3name = "CoolKats"; //Third team name.
 
-
+int team1Wins;
+int team2Wins;
+int team3Wins;
 
 
 
