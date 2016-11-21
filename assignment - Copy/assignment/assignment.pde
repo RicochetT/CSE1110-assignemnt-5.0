@@ -35,7 +35,7 @@ void setup() {
 
 void draw() {
 background(100, 10, 100);
-
+fill(255,255,255);
 team1name = "Skrubs"; //First team name.
 team2name = "Skids"; //Second team name.
 team3name = "CoolKats"; //Third team name.
@@ -67,5 +67,22 @@ rect(450,300,125,50);
 rect(575,300,125,50);// Fourth row.
 
 //Time for text!
+
+fill(0,0,0);
+strokeWeight(2);
+stroke(0,0,0);
+textSize(25);
+text("Team", 225,185);
+text(" Wins", 350,185);
+text("Losses", 475,185);
+text("Points", 600,185);
+
+textSize(17);
+text(team1name,225, 235);
+
+
+
+
+
 
 }
