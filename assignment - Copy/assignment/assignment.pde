@@ -27,9 +27,9 @@ void setup() {
   team2Lose = (int) random(0,7);
   team3Lose = (int) random(0,7); //Sets the teams losses.
   
-  team1Pts = (int) random(0,7);
-  team2Pts = (int) random(0,7);
-  team3Pts = (int) random(0,7); //Sets the teams points
+  team1Pts = (int) random(0,9);
+  team2Pts = (int) random(0,9);
+  team3Pts = (int) random(0,9); //Sets the teams points
 }
 
 void draw() {
@@ -93,5 +93,7 @@ text(team2Wins,375,280);
 text(team2Lose,500,280);
 text(T2total,625,280);// Team 2.
 
-
+text(team3Wins,375,330);
+text(team3Lose,500,330);
+text(T3total,625,330);// Team 3.
 }
