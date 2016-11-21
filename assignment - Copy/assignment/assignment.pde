@@ -37,7 +37,7 @@ background(100, 10, 100);
 fill(255,255,255);
 team1name = "Skrubs"; //First team name.
 team2name = "Skids"; //Second team name.
-team3name = "CoolKats"; //Third team name.
+team3name = "Cool Kats"; //Third team name.
 
 
 int T1total = team1Pts * 7;
@@ -82,8 +82,8 @@ text("Points", 600,185);
 
 textSize(17);
 text(team1name,225, 230);
-
-
+text(team2name,225, 280);
+text(team3name,225, 330);//Team names in the graph
 
 
 
