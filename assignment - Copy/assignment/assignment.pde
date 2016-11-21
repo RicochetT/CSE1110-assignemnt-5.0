@@ -1,5 +1,4 @@
-//Got my commits back :D
-// Score board
+//The team score board for the game.
 String team1name;
 String team2name;
 String team3name;// Team variables.
@@ -66,11 +65,15 @@ rect(325,300,125,50);
 rect(450,300,125,50);
 rect(575,300,125,50);// Fourth row.
 
+strokeWeight(3);
+stroke(0,0,0);
+line(200,200,700,200);
+strokeWeight(1);
+
 //Time for text!
 
 fill(0,0,0);
-strokeWeight(2);
-stroke(0,0,0);
+
 textSize(25);
 text("Team", 225,185);
 text(" Wins", 350,185);
@@ -78,7 +81,7 @@ text("Losses", 475,185);
 text("Points", 600,185);
 
 textSize(17);
-text(team1name,225, 235);
+text(team1name,225, 230);
 
 
 
