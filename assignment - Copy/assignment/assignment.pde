@@ -41,8 +41,8 @@ team3name = "Cool Kats"; //Third team name.
 
 
 int T1total = team1Pts * 7;
-int T2total = team1Pts * 7;
-int T3total = team1Pts * 7;
+int T2total = team2Pts * 7;
+int T3total = team3Pts * 7;
 
 
 rect(200,150,125,50);
@@ -88,6 +88,10 @@ text(team3name,225, 330);//Team names in the graph.
 text(team1Wins,375,230);
 text(team1Lose,500,230);
 text(T1total,625,230);// Team 1.
+
+text(team2Wins,375,280);
+text(team2Lose,500,280);
+text(T2total,625,280);// Team 2.
 
 
 }
